@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-white dark:bg-gray-900 text-gray-900 dark:text-white`}>
+      <body className={`${inter.className} bg-light-background dark:bg-dark-background text-light-text dark:text-dark-text`}>
         <ThemeProvider>
           <div className="flex">
             <Sidebar />

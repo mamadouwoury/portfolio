@@ -29,8 +29,9 @@ export default function Footer() {
               aria-label={label}
             >
               <Icon
+                className="text-primary dark:text-primary-light"
                 size={24} // Use size prop
-                color="currentColor" // Use color prop instead of className
+                // color="currentColor" // Use color prop instead of className
               />
             </Link>
           ))}

@@ -26,7 +26,7 @@ export default function Biography() {
             <p className="text-gray-600 dark:text-gray-300">
               Graduate of the Associate Degree in Programming at{" "}
               <a
-                className="text-blue-500 dark:text-primary-light"
+                className="text-primary dark:text-primary hover:underline"
                 href="https://www.ap.be/campus/campus-spoor-noord-noorderplaats"
                 target="_blank"
                 rel="noopener noreferrer"

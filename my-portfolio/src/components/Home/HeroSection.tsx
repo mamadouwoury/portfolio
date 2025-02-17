@@ -9,18 +9,18 @@ export default function HeroSection() {
           Hi, I'm Mamadou Barry
         </h1>
         <p className="text-xl mb-8">
-          A passionate web developer creating innovative digital experiences
+          A passionate junior web developer creating innovative digital experiences
         </p>
         <div className="flex justify-center space-x-4">
           <Link 
             href="/projects" 
-            className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
+            className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/60 transition"
           >
             View Projects
           </Link>
           <Link 
             href="/contact" 
-            className="border-2 border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-50 transition"
+            className="border-2 border-secondary text-secondary px-6 py-3 rounded-lg hover:bg-secondary/10 transition"
           >
             Contact Me
           </Link>

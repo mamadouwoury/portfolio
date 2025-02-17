@@ -27,7 +27,7 @@ const Sidebar = () => {
     <>
       {/* Mobile Hamburger Button */}
       <button
-        className="md:hidden fixed top-4 left-4 z-50 p-2 bg-gray-200 dark:bg-gray-700 rounded-md"
+        className="md:hidden fixed top-4 left-4 z-50 p-2 bg-light-background dark:bg-dark-background rounded-md"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? "✕" : "☰"}
@@ -36,7 +36,7 @@ const Sidebar = () => {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full w-64 bg-white dark:bg-gray-900 
+          fixed top-0 left-0 h-full w-64 bg-light-background dark:bg-dark-background 
           shadow-lg transform transition-transform duration-300 z-40
           ${isOpen ? "translate-x-0" : "-translate-x-full"} 
           md:translate-x-0
@@ -63,8 +63,8 @@ const Sidebar = () => {
                     href={href}
                     className="
                       flex items-center space-x-3 
-                      text-gray-600 dark:text-gray-300 
-                      hover:text-blue-500 dark:hover:text-blue-400 
+                      text-primary dark:text-gray-300 
+                      hover:text-primary/60 dark:hover:text-primary 
                       transition
                     "
                   >
@@ -85,10 +85,10 @@ const Sidebar = () => {
               }}
               className="
                 w-full flex items-center justify-center space-x-3 
-                bg-gray-100 dark:bg-gray-800 
+                bg-light-background dark:bg-dark-background 
                 text-gray-800 dark:text-white 
                 py-3 rounded-md
-                hover:bg-gray-200 dark:hover:bg-gray-700
+                hover:bg-secondary/10 dark:hover:bg-secondary/20
                 transition
               "
             >
