@@ -1,24 +1,19 @@
-import Link from 'next/link'
-import { 
-  FaGithub, 
-  FaLinkedin, 
-  FaTwitter 
-} from 'react-icons/fa'
+import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   const socialLinks = [
-    { 
-      icon: FaGithub, 
-      href: 'https://github.com/yourusername',
-      label: 'GitHub' 
+    {
+      icon: FaGithub,
+      href: "https://github.com/mamadouwoury",
+      label: "GitHub",
     },
-    { 
-      icon: FaLinkedin, 
-      href: 'https://linkedin.com/in/yourusername',
-      label: 'LinkedIn' 
-    }
-   
-  ]
+    {
+      icon: FaLinkedin,
+      href: "https://www.linkedin.com/in/mamadou-woury-barry-915374228/",
+      label: "LinkedIn",
+    },
+  ];
 
   return (
     <footer className="bg-gray-100 dark:bg-gray-800 py-12">
@@ -33,9 +28,9 @@ export default function Footer() {
               className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
               aria-label={label}
             >
-              <Icon 
-                size={24}  // Use size prop
-                color="currentColor"  // Use color prop instead of className
+              <Icon
+                size={24} // Use size prop
+                color="currentColor" // Use color prop instead of className
               />
             </Link>
           ))}
@@ -45,5 +40,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  )
+  );
 }

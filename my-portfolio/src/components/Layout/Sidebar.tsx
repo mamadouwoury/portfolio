@@ -94,12 +94,12 @@ const Sidebar = () => {
             >
               {theme === "light" ? (
                 <>
-                  <MoonIcon className="h-6 w-6" />
+                  <MoonIcon className="h-6 w-6 text-orange-500" />
                   <span>Dark Mode</span>
                 </>
               ) : (
                 <>
-                  <SunIcon className="h-6 w-6" />
+                  <SunIcon className="h-6 w-6 text-yellow-500" />
                   <span>Light Mode</span>
                 </>
               )}

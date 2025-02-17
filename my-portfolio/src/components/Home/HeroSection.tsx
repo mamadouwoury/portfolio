@@ -4,11 +4,11 @@ import Link from 'next/link'
 export default function HeroSection() {
   return (
     <section className="min-h-screen flex items-center justify-center text-center">
-      <div className="max-w-2xl">
-        <h1 className="text-5xl font-bold mb-4 text-gray-800">
+      <div className="max-w-2xl dark:text-white">
+        <h1 className="text-5xl font-bold mb-4">
           Hi, I'm Mamadou Barry
         </h1>
-        <p className="text-xl text-gray-600 mb-8">
+        <p className="text-xl mb-8">
           A passionate web developer creating innovative digital experiences
         </p>
         <div className="flex justify-center space-x-4">
