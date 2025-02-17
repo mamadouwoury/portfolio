@@ -77,7 +77,7 @@ export default function ContactPage() {
                   <div>
                     <p className="text-gray-600 dark:text-gray-300 font-medium">Email</p>
                     <a 
-                      href="mailto:mamadouwoury@example.com" 
+                      href="mailto:mamadouwoury641@gmail.com" 
                       className="text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary-light"
                     >
                       mamadouwoury641@gmail.com
