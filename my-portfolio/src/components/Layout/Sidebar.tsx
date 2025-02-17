@@ -99,7 +99,7 @@ const Sidebar = () => {
                 </>
               ) : (
                 <>
-                  <SunIcon className="h-6 w-6 text-yellow-500" />
+                  <SunIcon className="h-6 w-6 text-[#FACC15]" />
                   <span>Light Mode</span>
                 </>
               )}

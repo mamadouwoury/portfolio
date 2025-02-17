@@ -25,7 +25,8 @@ export default function Biography() {
             <h3 className="text-xl font-semibold mb-2">Education</h3>
             <p className="text-gray-600 dark:text-gray-300">
               Graduate of the Associate Degree in Programming at{" "}
-              <a className="text-blue-500 dark:text-primary-light"
+              <a
+                className="text-blue-500 dark:text-primary-light"
                 href="https://www.ap.be/campus/campus-spoor-noord-noorderplaats"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -71,8 +72,6 @@ export default function Biography() {
             </p>
           </div>
         </motion.div>
-
-        
       </div>
 
       <motion.div
